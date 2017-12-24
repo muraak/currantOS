@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="currantOS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="currantOS">
+				<Option output="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/currantOS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRPI2=1"/>
+					<Add directory="/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/include"/>
+					<Add directory="/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/include-fixed"/>
+					<Add directory="/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 currantOS"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="currantOS/fast">
+				<Option output="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/currantOS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DRPI2=1"/>
+					<Add directory="/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/include"/>
+					<Add directory="/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/include-fixed"/>
+					<Add directory="/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/../lib/gcc/arm-none-eabi/4.7.4/../../../../arm-none-eabi/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 currantOS/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/cstartup.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/start.S">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/lib/cstubs.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.h">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.h">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/main.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/timer.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/timer.h">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/../rpi2.cmake">
+			<Option virtualFolder="CMake Files\..\"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/../rpi2.cmake">
+			<Option virtualFolder="CMake Files\..\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
