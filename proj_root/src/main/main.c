@@ -32,10 +32,7 @@ int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)
 
 	while(1) {
 	
-		//DI();
-		PutString("muraak> ", 8);
+		PutString("currantOS> ", sizeof("currantOS> "));
 	  GetString(buf, 256);
-		//EI();
-		//Wait_us(1000);
 	}
 }
