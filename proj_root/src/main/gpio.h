@@ -7,12 +7,6 @@
 
 #define GPIO_ADDRESS    (PERIPHERAL_ADDRESS + 0x200000UL)
 
-#define LED_GPFSEL      GPFSEL4
-#define LED_GPFBIT      21
-#define LED_GPSET       GPSET1
-#define LED_GPCLR       GPCLR1
-#define LED_GPIO_BIT    15
-
 #define FS_MASK     (7)
 
 typedef enum {
