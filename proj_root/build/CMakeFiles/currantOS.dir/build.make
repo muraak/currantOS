@@ -225,9 +225,33 @@ CMakeFiles/currantOS.dir/main/serial.c.obj.provides: CMakeFiles/currantOS.dir/ma
 CMakeFiles/currantOS.dir/main/serial.c.obj.provides.build: CMakeFiles/currantOS.dir/main/serial.c.obj
 
 
+CMakeFiles/currantOS.dir/main/console.c.obj: CMakeFiles/currantOS.dir/flags.make
+CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/currantOS.dir/main/console.c.obj"
+	/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/currantOS.dir/main/console.c.obj   -c /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c
+
+CMakeFiles/currantOS.dir/main/console.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/currantOS.dir/main/console.c.i"
+	/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c > CMakeFiles/currantOS.dir/main/console.c.i
+
+CMakeFiles/currantOS.dir/main/console.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/currantOS.dir/main/console.c.s"
+	/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c -o CMakeFiles/currantOS.dir/main/console.c.s
+
+CMakeFiles/currantOS.dir/main/console.c.obj.requires:
+
+.PHONY : CMakeFiles/currantOS.dir/main/console.c.obj.requires
+
+CMakeFiles/currantOS.dir/main/console.c.obj.provides: CMakeFiles/currantOS.dir/main/console.c.obj.requires
+	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/main/console.c.obj.provides.build
+.PHONY : CMakeFiles/currantOS.dir/main/console.c.obj.provides
+
+CMakeFiles/currantOS.dir/main/console.c.obj.provides.build: CMakeFiles/currantOS.dir/main/console.c.obj
+
+
 CMakeFiles/currantOS.dir/init/start.S.obj: CMakeFiles/currantOS.dir/flags.make
 CMakeFiles/currantOS.dir/init/start.S.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/start.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/currantOS.dir/init/start.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building ASM object CMakeFiles/currantOS.dir/init/start.S.obj"
 	/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/currantOS.dir/init/start.S.obj -c /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/start.S
 
 CMakeFiles/currantOS.dir/init/start.S.obj.requires:
@@ -243,7 +267,7 @@ CMakeFiles/currantOS.dir/init/start.S.obj.provides.build: CMakeFiles/currantOS.d
 
 CMakeFiles/currantOS.dir/init/cstartup.c.obj: CMakeFiles/currantOS.dir/flags.make
 CMakeFiles/currantOS.dir/init/cstartup.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/cstartup.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/currantOS.dir/init/cstartup.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/currantOS.dir/init/cstartup.c.obj"
 	/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/currantOS.dir/init/cstartup.c.obj   -c /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/cstartup.c
 
 CMakeFiles/currantOS.dir/init/cstartup.c.i: cmake_force
@@ -267,7 +291,7 @@ CMakeFiles/currantOS.dir/init/cstartup.c.obj.provides.build: CMakeFiles/currantO
 
 CMakeFiles/currantOS.dir/lib/cstubs.c.obj: CMakeFiles/currantOS.dir/flags.make
 CMakeFiles/currantOS.dir/lib/cstubs.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/lib/cstubs.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/currantOS.dir/lib/cstubs.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/currantOS.dir/lib/cstubs.c.obj"
 	/Users/muraak/MyGarage/gcc/gcc-arm-none-eabi-4_7-2013q3/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/currantOS.dir/lib/cstubs.c.obj   -c /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/lib/cstubs.c
 
 CMakeFiles/currantOS.dir/lib/cstubs.c.i: cmake_force
@@ -298,6 +322,7 @@ currantOS_OBJECTS = \
 "CMakeFiles/currantOS.dir/main/arm_timer.c.obj" \
 "CMakeFiles/currantOS.dir/main/aux.c.obj" \
 "CMakeFiles/currantOS.dir/main/serial.c.obj" \
+"CMakeFiles/currantOS.dir/main/console.c.obj" \
 "CMakeFiles/currantOS.dir/init/start.S.obj" \
 "CMakeFiles/currantOS.dir/init/cstartup.c.obj" \
 "CMakeFiles/currantOS.dir/lib/cstubs.c.obj"
@@ -312,12 +337,13 @@ currantOS: CMakeFiles/currantOS.dir/main/interrupts.c.obj
 currantOS: CMakeFiles/currantOS.dir/main/arm_timer.c.obj
 currantOS: CMakeFiles/currantOS.dir/main/aux.c.obj
 currantOS: CMakeFiles/currantOS.dir/main/serial.c.obj
+currantOS: CMakeFiles/currantOS.dir/main/console.c.obj
 currantOS: CMakeFiles/currantOS.dir/init/start.S.obj
 currantOS: CMakeFiles/currantOS.dir/init/cstartup.c.obj
 currantOS: CMakeFiles/currantOS.dir/lib/cstubs.c.obj
 currantOS: CMakeFiles/currantOS.dir/build.make
 currantOS: CMakeFiles/currantOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking C executable currantOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking C executable currantOS"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/currantOS.dir/link.txt --verbose=$(VERBOSE)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold "Convert the ELF output file to a binary image"
 	arm-none-eabi-objcopy ./currantOS -O binary ../bin/kernel.img
@@ -334,6 +360,7 @@ CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/main/interrupts.c.ob
 CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/main/arm_timer.c.obj.requires
 CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/main/aux.c.obj.requires
 CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/main/serial.c.obj.requires
+CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/main/console.c.obj.requires
 CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/init/start.S.obj.requires
 CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/init/cstartup.c.obj.requires
 CMakeFiles/currantOS.dir/requires: CMakeFiles/currantOS.dir/lib/cstubs.c.obj.requires

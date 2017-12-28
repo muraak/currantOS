@@ -240,6 +240,33 @@ main/aux.c.s:
 	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/main/aux.c.s
 .PHONY : main/aux.c.s
 
+main/console.obj: main/console.c.obj
+
+.PHONY : main/console.obj
+
+# target to build an object file
+main/console.c.obj:
+	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/main/console.c.obj
+.PHONY : main/console.c.obj
+
+main/console.i: main/console.c.i
+
+.PHONY : main/console.i
+
+# target to preprocess a source file
+main/console.c.i:
+	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/main/console.c.i
+.PHONY : main/console.c.i
+
+main/console.s: main/console.c.s
+
+.PHONY : main/console.s
+
+# target to generate assembly for a file
+main/console.c.s:
+	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/main/console.c.s
+.PHONY : main/console.c.s
+
 main/gpio.obj: main/gpio.c.obj
 
 .PHONY : main/gpio.obj
@@ -397,6 +424,9 @@ help:
 	@echo "... main/aux.obj"
 	@echo "... main/aux.i"
 	@echo "... main/aux.s"
+	@echo "... main/console.obj"
+	@echo "... main/console.i"
+	@echo "... main/console.s"
 	@echo "... main/gpio.obj"
 	@echo "... main/gpio.i"
 	@echo "... main/gpio.s"

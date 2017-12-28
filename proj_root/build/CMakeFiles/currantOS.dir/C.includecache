@@ -36,6 +36,16 @@ type.h
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
 
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c
+console.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.h
+serial.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h
+
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.h
+type.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
+
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.c
 type.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
@@ -73,22 +83,16 @@ gpio.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/main.c
 type.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
-base.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
-gpio.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
 timer.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/timer.h
 arm_timer.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.h
 interrupts.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.h
-aux.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h
-serial.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h
 led.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h
+console.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.h
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.c
 serial.h

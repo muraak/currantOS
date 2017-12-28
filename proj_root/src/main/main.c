@@ -4,14 +4,11 @@
  */
 
 #include "type.h"
-#include "base.h"
-#include "gpio.h"
 #include "timer.h"
 #include "arm_timer.h"
 #include "interrupts.h"
-#include "aux.h"
-#include "serial.h"
 #include "led.h"
+#include "console.h"
 
 int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)
 {
@@ -27,13 +24,13 @@ int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)
 														ARM_TIMER_CTRL_EI |
 														ARM_TIMER_CTRL_ENABLE_TIMER;
 
-	SerialInit();
+	ConsoleInit();
 
 	EI();
 
 	while(1) {
 	
-		PutString("currantOS> ", sizeof("currantOS> "));
-	  GetString(buf, 256);
+		ConsoleWrite("currantOS> ", sizeof("currantOS> "));
+	  ConsoleRead(buf, 256);
 	}
 }

@@ -19,6 +19,7 @@ add_executable(currantOS
 	main/aux.c
 	main/serial.c
 	main/led.h
+	main/console.c
 	init/start.S
 	init/cstartup.c
 	lib/cstubs.c

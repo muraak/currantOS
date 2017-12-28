@@ -22,6 +22,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/lib/cstubs.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/lib/cstubs.c.obj"
   "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/main/arm_timer.c.obj"
   "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/main/aux.c.obj"
+  "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/main/console.c.obj"
   "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/main/gpio.c.obj"
   "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/main/interrupts.c.obj"
   "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/main.c" "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir/main/main.c.obj"

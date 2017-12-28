@@ -6,6 +6,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/currantOS.dir/main/arm_timer.c.obj"
   "CMakeFiles/currantOS.dir/main/aux.c.obj"
   "CMakeFiles/currantOS.dir/main/serial.c.obj"
+  "CMakeFiles/currantOS.dir/main/console.c.obj"
   "CMakeFiles/currantOS.dir/init/start.S.obj"
   "CMakeFiles/currantOS.dir/init/cstartup.c.obj"
   "CMakeFiles/currantOS.dir/lib/cstubs.c.obj"

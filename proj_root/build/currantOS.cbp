@@ -97,6 +97,12 @@
 		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h">
 			<Option target="currantOS"/>
 		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c">
+			<Option target="currantOS"/>
+		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.h">
+			<Option target="currantOS"/>
+		</Unit>
 		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.c">
 			<Option target="currantOS"/>
 		</Unit>
@@ -129,9 +135,6 @@
 		</Unit>
 		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
-		</Unit>
-		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/../rpi2.cmake">
-			<Option virtualFolder="CMake Files\..\"/>
 		</Unit>
 		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/../rpi2.cmake">
 			<Option virtualFolder="CMake Files\..\"/>
