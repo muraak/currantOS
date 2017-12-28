@@ -4,7 +4,7 @@
 
 #include "gpio.h"
 
-#define ENABLE_LED() GetGpioRegister()->LED_GPFSEL |= (1 << LED_GPFBIT)
+#define ENABLE_LED() SetGpioPinFunction(GPIO47, GPIO_FS_OUT)
 #define LED_ON()     GetGpioRegister()->LED_GPSET = (1 << LED_GPIO_BIT)
 #define LED_OFF()    GetGpioRegister()->LED_GPCLR = (1 << LED_GPIO_BIT)
 
