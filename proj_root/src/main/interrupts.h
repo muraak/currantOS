@@ -17,16 +17,16 @@
 	#define ACCESS_ERROR_0_IRQ	(1 << 7)
 
 	typedef struct {
-		reg32_t IRQ_basic_pending;
-		reg32_t IRQ_pending_1;
-		reg32_t IRQ_pending_2;
-		reg32_t FIQ_control;
-		reg32_t Enable_IRQs_1;
-		reg32_t Enable_IRQs_2;
-		reg32_t Enable_Basic_IRQs;
-		reg32_t Disable_IRQs_1;
-		reg32_t Disable_IRQs_2;
-		reg32_t Disable_Basic_IRQs;
+		REG32 IRQ_basic_pending;
+		REG32 IRQ_pending_1;
+		REG32 IRQ_pending_2;
+		REG32 FIQ_control;
+		REG32 Enable_IRQs_1;
+		REG32 Enable_IRQs_2;
+		REG32 Enable_Basic_IRQs;
+		REG32 Disable_IRQs_1;
+		REG32 Disable_IRQs_2;
+		REG32 Disable_Basic_IRQs;
 	} interrupt_register_t;
 
 	void EI(void);

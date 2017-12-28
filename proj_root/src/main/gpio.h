@@ -12,8 +12,6 @@
 #define LED_GPSET       GPSET1
 #define LED_GPCLR       GPCLR1
 #define LED_GPIO_BIT    15
-#define LED_ON()        GetGpioRegister()->LED_GPSET = (1 << LED_GPIO_BIT)
-#define LED_OFF()       GetGpioRegister()->LED_GPCLR = (1 << LED_GPIO_BIT)
 
 #define FS_MASK     (7)
 
@@ -88,47 +86,47 @@ typedef enum {
 // GPIO Registers
 // See: https://www.raspberrypi.org/app/uploads/2012/02/BCM2835-ARM-Peripherals.pdf(pp.90)
 typedef struct {
-	reg32_t	GPFSEL0;
-	reg32_t	GPFSEL1;
-	reg32_t	GPFSEL2;
-	reg32_t	GPFSEL3;
-	reg32_t	GPFSEL4;
-	reg32_t	GPFSEL5;
-	reg32_t	Reserved0;
-	reg32_t	GPSET0;
-	reg32_t	GPSET1;
-	reg32_t	Reserved1;
-	reg32_t	GPCLR0;
-	reg32_t	GPCLR1;
-	reg32_t	Reserved2;
-	reg32_t	GPLEV0;
-	reg32_t	GPLEV1;
-	reg32_t	Reserved3;
-	reg32_t	GPEDS0;
-	reg32_t	GPEDS1;
-	reg32_t	Reserved4;
-	reg32_t	GPREN0;
-	reg32_t	GPREN1;
-	reg32_t	Reserved5;
-	reg32_t	GPFEN0;
-	reg32_t	GPFEN1;
-	reg32_t	Reserved6;
-	reg32_t	GPHEN0;
-	reg32_t	GPHEN1;
-	reg32_t	Reserved7;
-	reg32_t	GPLEN0;
-	reg32_t	GPLEN1;
-	reg32_t	Reserved8;
-	reg32_t	GPAREN0;
-	reg32_t	GPAREN1;
-	reg32_t	Reserved9;
-	reg32_t	GPAFEN0;
-	reg32_t	GPAFEN1;
-	reg32_t	Reserved10;
-	reg32_t	GPPUD;
-	reg32_t	GPPUDCLK0;
-	reg32_t	GPPUDCLK1;
-	reg32_t	Reserved11;
+	REG32	GPFSEL0;
+	REG32	GPFSEL1;
+	REG32	GPFSEL2;
+	REG32	GPFSEL3;
+	REG32	GPFSEL4;
+	REG32	GPFSEL5;
+	REG32	Reserved0;
+	REG32	GPSET0;
+	REG32	GPSET1;
+	REG32	Reserved1;
+	REG32	GPCLR0;
+	REG32	GPCLR1;
+	REG32	Reserved2;
+	REG32	GPLEV0;
+	REG32	GPLEV1;
+	REG32	Reserved3;
+	REG32	GPEDS0;
+	REG32	GPEDS1;
+	REG32	Reserved4;
+	REG32	GPREN0;
+	REG32	GPREN1;
+	REG32	Reserved5;
+	REG32	GPFEN0;
+	REG32	GPFEN1;
+	REG32	Reserved6;
+	REG32	GPHEN0;
+	REG32	GPHEN1;
+	REG32	Reserved7;
+	REG32	GPLEN0;
+	REG32	GPLEN1;
+	REG32	Reserved8;
+	REG32	GPAREN0;
+	REG32	GPAREN1;
+	REG32	Reserved9;
+	REG32	GPAFEN0;
+	REG32	GPAFEN1;
+	REG32	Reserved10;
+	REG32	GPPUD;
+	REG32	GPPUDCLK0;
+	REG32	GPPUDCLK1;
+	REG32	Reserved11;
 } gpio_regs_t;
 
 gpio_regs_t* GetGpioRegister(void);

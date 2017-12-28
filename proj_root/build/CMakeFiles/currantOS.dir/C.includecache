@@ -7,8 +7,8 @@
 #IncludeRegexTransform: 
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/init/cstartup.c
-../main/gpio.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
+../main/led.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/lib/cstubs.c
 sys/stat.h
@@ -55,18 +55,20 @@ type.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
 interrupts.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.h
-gpio.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
 arm_timer.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.h
-serial.h
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h
+led.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.h
 type.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
 base.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
+
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h
+gpio.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/main.c
 type.h
@@ -85,6 +87,8 @@ aux.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h
 serial.h
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h
+led.h
+/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h
 
 /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.c
 serial.h

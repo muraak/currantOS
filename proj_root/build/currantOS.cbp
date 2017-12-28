@@ -109,6 +109,9 @@
 		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.h">
 			<Option target="currantOS"/>
 		</Unit>
+		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h">
+			<Option target="currantOS"/>
+		</Unit>
 		<Unit filename="/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/main.c">
 			<Option target="currantOS"/>
 		</Unit>

@@ -18,6 +18,7 @@ add_executable(currantOS
 	main/arm_timer.c
 	main/aux.c
 	main/serial.c
+	main/led.h
 	init/start.S
 	init/cstartup.c
 	lib/cstubs.c

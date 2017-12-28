@@ -1,13 +1,12 @@
 
 #include "type.h"
 #include "interrupts.h"
-#include "gpio.h"
 #include "arm_timer.h"
-#include "serial.h"
+#include "led.h"
 
 void EI(void)
 {
-	int tmp;
+	REG32 tmp;
 	asm volatile(
 			"mrs     %[tmp], cpsr          \n\t"
 			"bic     %[tmp], %[tmp], #0x80 \n\t"
@@ -20,7 +19,7 @@ void EI(void)
 
 void DI(void)
 {
-	int tmp;
+	REG32 tmp;
 	asm volatile(
 			"mrs     %[tmp], cpsr          \n\t"
 			"orr     %[tmp], %[tmp], #0x80 \n\t"
@@ -67,7 +66,7 @@ void __attribute__((interrupt("ABORT"))) data_abort_vector(void)
 
 void __attribute__((interrupt("IRQ"))) interrupt_vector(void)
 {
-	static int lit = 0;
+	static BOOL lit = false;
 
 	GetArmTimer()->IRQClear = 1;
 

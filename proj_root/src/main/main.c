@@ -11,12 +11,13 @@
 #include "interrupts.h"
 #include "aux.h"
 #include "serial.h"
+#include "led.h"
 
 int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)
 {
-	uint08 buf[256] = {0};
+	UCHAR buf[256] = {0};
 
-	GetGpioRegister()->LED_GPFSEL |= LED_GPFBIT;
+	ENABLE_LED();
 
 	GetInterruptRegister()->Enable_Basic_IRQs = ARM_TIMER_IRQ;
 	
@@ -26,7 +27,7 @@ int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)
 														ARM_TIMER_CTRL_EI |
 														ARM_TIMER_CTRL_ENABLE_TIMER;
 
-	AuxMiniUartInit(115200, 8);
+	SerialInit();
 
 	EI();
 

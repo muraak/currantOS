@@ -1,0 +1,288 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACCESS_ERROR_0_IRQ	main/interrupts.h	/^	#define ACCESS_ERROR_0_IRQ	/;"	d
+ACCESS_ERROR_1_IRQ	main/interrupts.h	/^	#define ACCESS_ERROR_1_IRQ	/;"	d
+ARM_DOORBELL_0_IRQ	main/interrupts.h	/^	#define ARM_DOORBELL_0_IRQ	/;"	d
+ARM_DOORBELL_1_IRQ	main/interrupts.h	/^	#define ARM_DOORBELL_1_IRQ	/;"	d
+ARM_MAILBOX_IRQ	main/interrupts.h	/^	#define ARM_MAILBOX_IRQ	/;"	d
+ARM_TIMER_ADDRESS	main/arm_timer.h	/^	#define ARM_TIMER_ADDRESS /;"	d
+ARM_TIMER_CTRL_COUNTER_16BIT	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_COUNTER_16BIT /;"	d
+ARM_TIMER_CTRL_COUNTER_23BIT	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_COUNTER_23BIT /;"	d
+ARM_TIMER_CTRL_DI	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_DI /;"	d
+ARM_TIMER_CTRL_DISABLE_TIMER	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_DISABLE_TIMER	/;"	d
+ARM_TIMER_CTRL_EI	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_EI /;"	d
+ARM_TIMER_CTRL_ENABLE_TIMER	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_ENABLE_TIMER	/;"	d
+ARM_TIMER_CTRL_PRESCALE_1	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_PRESCALE_1	/;"	d
+ARM_TIMER_CTRL_PRESCALE_16	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_PRESCALE_16	/;"	d
+ARM_TIMER_CTRL_PRESCALE_256	main/arm_timer.h	/^	#define ARM_TIMER_CTRL_PRESCALE_256	/;"	d
+ARM_TIMER_H	main/arm_timer.h	/^	#define ARM_TIMER_H$/;"	d
+ARM_TIMER_IRQ	main/interrupts.h	/^	#define ARM_TIMER_IRQ	/;"	d
+AUX_ADDR	main/aux.h	/^#define AUX_ADDR /;"	d
+AUX_ENA_MINI_UART	main/aux.h	/^#define AUX_ENA_MINI_UART /;"	d
+AUX_ENA_SPI1	main/aux.h	/^#define AUX_ENA_SPI1 /;"	d
+AUX_ENA_SPI2	main/aux.h	/^#define AUX_ENA_SPI2 /;"	d
+AUX_H	main/aux.h	/^#define AUX_H$/;"	d
+AUX_IRQ_MINI_UART	main/aux.h	/^#define AUX_IRQ_MINI_UART /;"	d
+AUX_IRQ_SPI1	main/aux.h	/^#define AUX_IRQ_SPI1 /;"	d
+AUX_IRQ_SPI2	main/aux.h	/^#define AUX_IRQ_SPI2 /;"	d
+AUX_MULCR_7BIT_MODE	main/aux.h	/^#define AUX_MULCR_7BIT_MODE /;"	d
+AUX_MULCR_8BIT_MODE	main/aux.h	/^#define AUX_MULCR_8BIT_MODE /;"	d
+AUX_MU_CNTL_CTS_ASSERT	main/aux.h	/^#define AUX_MU_CNTL_CTS_ASSERT /;"	d
+AUX_MU_CNTL_ENABLE_CTS_FLOW	main/aux.h	/^#define AUX_MU_CNTL_ENABLE_CTS_FLOW /;"	d
+AUX_MU_CNTL_ENABLE_RTS_FLOW	main/aux.h	/^#define AUX_MU_CNTL_ENABLE_RTS_FLOW /;"	d
+AUX_MU_CNTL_ENABLE_RX	main/aux.h	/^#define AUX_MU_CNTL_ENABLE_RX /;"	d
+AUX_MU_CNTL_ENABLE_TX	main/aux.h	/^#define AUX_MU_CNTL_ENABLE_TX /;"	d
+AUX_MU_CNTL_RTS_ASSERT	main/aux.h	/^#define AUX_MU_CNTL_RTS_ASSERT /;"	d
+AUX_MU_CNTL_RTS_FIFO	main/aux.h	/^#define AUX_MU_CNTL_RTS_FIFO /;"	d
+AUX_MU_LCR_BREAK	main/aux.h	/^#define AUX_MU_LCR_BREAK /;"	d
+AUX_MU_LCR_DLAB_ACS	main/aux.h	/^#define AUX_MU_LCR_DLAB_ACS /;"	d
+AUX_MU_LSR_DATA_READY	main/aux.h	/^#define AUX_MU_LSR_DATA_READY /;"	d
+AUX_MU_LSR_DATA_RECV_OVERRUN	main/aux.h	/^#define AUX_MU_LSR_DATA_RECV_OVERRUN /;"	d
+AUX_MU_LSR_DATA_TRANS_EMPTY	main/aux.h	/^#define AUX_MU_LSR_DATA_TRANS_EMPTY /;"	d
+AUX_MU_LSR_DATA_TRANS_IDLE	main/aux.h	/^#define AUX_MU_LSR_DATA_TRANS_IDLE /;"	d
+AUX_MU_MCR_RTS	main/aux.h	/^#define AUX_MU_MCR_RTS /;"	d
+AUX_MU_MSR_CTS	main/aux.h	/^#define AUX_MU_MSR_CTS /;"	d
+AUX_MU_STAT_CTS_LINE	main/aux.h	/^#define AUX_MU_STAT_CTS_LINE /;"	d
+AUX_MU_STAT_RTS_STATUS	main/aux.h	/^#define AUX_MU_STAT_RTS_STATUS /;"	d
+AUX_MU_STAT_RX_FIFO_LEVEL	main/aux.h	/^#define AUX_MU_STAT_RX_FIFO_LEVEL /;"	d
+AUX_MU_STAT_RX_IDLE	main/aux.h	/^#define AUX_MU_STAT_RX_IDLE /;"	d
+AUX_MU_STAT_RX_OVERRUN	main/aux.h	/^#define AUX_MU_STAT_RX_OVERRUN /;"	d
+AUX_MU_STAT_SPACE_AVAILABLE	main/aux.h	/^#define AUX_MU_STAT_SPACE_AVAILABLE /;"	d
+AUX_MU_STAT_SYMBOL_AVAILABLE	main/aux.h	/^#define AUX_MU_STAT_SYMBOL_AVAILABLE /;"	d
+AUX_MU_STAT_TX_DONE	main/aux.h	/^#define AUX_MU_STAT_TX_DONE /;"	d
+AUX_MU_STAT_TX_FIFO_EMPTY	main/aux.h	/^#define AUX_MU_STAT_TX_FIFO_EMPTY /;"	d
+AUX_MU_STAT_TX_FIFO_FULL	main/aux.h	/^#define AUX_MU_STAT_TX_FIFO_FULL /;"	d
+AUX_MU_STAT_TX_FIFO_LEVEL	main/aux.h	/^#define AUX_MU_STAT_TX_FIFO_LEVEL /;"	d
+AUX_MU_STAT_TX_IDLE	main/aux.h	/^#define AUX_MU_STAT_TX_IDLE /;"	d
+AuxMiniUartGetByte	main/aux.c	/^BYTE AuxMiniUartGetByte(void)$/;"	f
+AuxMiniUartInit	main/aux.c	/^void AuxMiniUartInit(UINT32 baud, UINT32 bits)$/;"	f
+AuxMiniUartPutByte	main/aux.c	/^void AuxMiniUartPutByte(BYTE c)$/;"	f
+AuxMiniUartRegsGetAddr	main/aux.c	/^aux_mini_uart_regs_t* AuxMiniUartRegsGetAddr(void)$/;"	f
+BASE_H	main/base.h	/^#define BASE_H$/;"	d
+BAUD	main/aux.h	/^  REG32 BAUD;$/;"	m	struct:__anon2
+BOOL	main/type.h	/^typedef enum {true, false} BOOL; $/;"	t	typeref:enum:__anon8
+BYTE	main/type.h	/^typedef unsigned char BYTE;$/;"	t
+CHAR	main/type.h	/^typedef char CHAR;$/;"	t
+CNTL	main/aux.h	/^  REG32 CNTL;$/;"	m	struct:__anon2
+Control	main/arm_timer.h	/^		REG32 Control;$/;"	m	struct:__anon1
+DI	main/interrupts.c	/^void DI(void)$/;"	f
+DUMMY	main/serial.c	/^#define DUMMY /;"	d	file:
+Disable_Basic_IRQs	main/interrupts.h	/^		REG32 Disable_Basic_IRQs;$/;"	m	struct:__anon6
+Disable_IRQs_1	main/interrupts.h	/^		REG32 Disable_IRQs_1;$/;"	m	struct:__anon6
+Disable_IRQs_2	main/interrupts.h	/^		REG32 Disable_IRQs_2;$/;"	m	struct:__anon6
+EI	main/interrupts.c	/^void EI(void)$/;"	f
+ENA	main/aux.h	/^	REG32 ENA;$/;"	m	struct:__anon2
+Enable_Basic_IRQs	main/interrupts.h	/^		REG32 Enable_Basic_IRQs;$/;"	m	struct:__anon6
+Enable_IRQs_1	main/interrupts.h	/^		REG32 Enable_IRQs_1;$/;"	m	struct:__anon6
+Enable_IRQs_2	main/interrupts.h	/^		REG32 Enable_IRQs_2;$/;"	m	struct:__anon6
+FIQ_control	main/interrupts.h	/^		REG32 FIQ_control;$/;"	m	struct:__anon6
+FS_MASK	main/gpio.h	/^#define FS_MASK /;"	d
+FreeRunningCounter	main/arm_timer.h	/^		REG32 FreeRunningCounter;$/;"	m	struct:__anon1
+GPAFEN0	main/gpio.h	/^	REG32	GPAFEN0;$/;"	m	struct:__anon5
+GPAFEN1	main/gpio.h	/^	REG32	GPAFEN1;$/;"	m	struct:__anon5
+GPAREN0	main/gpio.h	/^	REG32	GPAREN0;$/;"	m	struct:__anon5
+GPAREN1	main/gpio.h	/^	REG32	GPAREN1;$/;"	m	struct:__anon5
+GPCLR0	main/gpio.h	/^	REG32	GPCLR0;$/;"	m	struct:__anon5
+GPCLR1	main/gpio.h	/^	REG32	GPCLR1;$/;"	m	struct:__anon5
+GPEDS0	main/gpio.h	/^	REG32	GPEDS0;$/;"	m	struct:__anon5
+GPEDS1	main/gpio.h	/^	REG32	GPEDS1;$/;"	m	struct:__anon5
+GPFEN0	main/gpio.h	/^	REG32	GPFEN0;$/;"	m	struct:__anon5
+GPFEN1	main/gpio.h	/^	REG32	GPFEN1;$/;"	m	struct:__anon5
+GPFSEL0	main/gpio.h	/^	REG32	GPFSEL0;$/;"	m	struct:__anon5
+GPFSEL1	main/gpio.h	/^	REG32	GPFSEL1;$/;"	m	struct:__anon5
+GPFSEL2	main/gpio.h	/^	REG32	GPFSEL2;$/;"	m	struct:__anon5
+GPFSEL3	main/gpio.h	/^	REG32	GPFSEL3;$/;"	m	struct:__anon5
+GPFSEL4	main/gpio.h	/^	REG32	GPFSEL4;$/;"	m	struct:__anon5
+GPFSEL5	main/gpio.h	/^	REG32	GPFSEL5;$/;"	m	struct:__anon5
+GPHEN0	main/gpio.h	/^	REG32	GPHEN0;$/;"	m	struct:__anon5
+GPHEN1	main/gpio.h	/^	REG32	GPHEN1;$/;"	m	struct:__anon5
+GPIO0	main/gpio.h	/^  GPIO0 = 0,$/;"	e	enum:__anon3
+GPIO1	main/gpio.h	/^  GPIO1,$/;"	e	enum:__anon3
+GPIO10	main/gpio.h	/^  GPIO10 = 10,$/;"	e	enum:__anon3
+GPIO11	main/gpio.h	/^  GPIO11,$/;"	e	enum:__anon3
+GPIO12	main/gpio.h	/^  GPIO12,$/;"	e	enum:__anon3
+GPIO13	main/gpio.h	/^  GPIO13,$/;"	e	enum:__anon3
+GPIO14	main/gpio.h	/^  GPIO14,$/;"	e	enum:__anon3
+GPIO15	main/gpio.h	/^  GPIO15,$/;"	e	enum:__anon3
+GPIO16	main/gpio.h	/^  GPIO16,$/;"	e	enum:__anon3
+GPIO17	main/gpio.h	/^  GPIO17,$/;"	e	enum:__anon3
+GPIO18	main/gpio.h	/^  GPIO18,$/;"	e	enum:__anon3
+GPIO19	main/gpio.h	/^  GPIO19,$/;"	e	enum:__anon3
+GPIO2	main/gpio.h	/^  GPIO2,$/;"	e	enum:__anon3
+GPIO20	main/gpio.h	/^  GPIO20 = 20,$/;"	e	enum:__anon3
+GPIO21	main/gpio.h	/^  GPIO21,$/;"	e	enum:__anon3
+GPIO22	main/gpio.h	/^  GPIO22,$/;"	e	enum:__anon3
+GPIO23	main/gpio.h	/^  GPIO23,$/;"	e	enum:__anon3
+GPIO24	main/gpio.h	/^  GPIO24,$/;"	e	enum:__anon3
+GPIO25	main/gpio.h	/^  GPIO25,$/;"	e	enum:__anon3
+GPIO26	main/gpio.h	/^  GPIO26,$/;"	e	enum:__anon3
+GPIO27	main/gpio.h	/^  GPIO27,$/;"	e	enum:__anon3
+GPIO28	main/gpio.h	/^  GPIO28,$/;"	e	enum:__anon3
+GPIO29	main/gpio.h	/^  GPIO29,$/;"	e	enum:__anon3
+GPIO3	main/gpio.h	/^  GPIO3,$/;"	e	enum:__anon3
+GPIO30	main/gpio.h	/^  GPIO30 = 30,$/;"	e	enum:__anon3
+GPIO31	main/gpio.h	/^  GPIO31,$/;"	e	enum:__anon3
+GPIO32	main/gpio.h	/^  GPIO32,$/;"	e	enum:__anon3
+GPIO33	main/gpio.h	/^  GPIO33,$/;"	e	enum:__anon3
+GPIO34	main/gpio.h	/^  GPIO34,$/;"	e	enum:__anon3
+GPIO35	main/gpio.h	/^  GPIO35,$/;"	e	enum:__anon3
+GPIO36	main/gpio.h	/^  GPIO36,$/;"	e	enum:__anon3
+GPIO37	main/gpio.h	/^  GPIO37,$/;"	e	enum:__anon3
+GPIO38	main/gpio.h	/^  GPIO38,$/;"	e	enum:__anon3
+GPIO39	main/gpio.h	/^  GPIO39,$/;"	e	enum:__anon3
+GPIO4	main/gpio.h	/^  GPIO4,$/;"	e	enum:__anon3
+GPIO40	main/gpio.h	/^  GPIO40 = 40,$/;"	e	enum:__anon3
+GPIO41	main/gpio.h	/^  GPIO41,$/;"	e	enum:__anon3
+GPIO42	main/gpio.h	/^  GPIO42,$/;"	e	enum:__anon3
+GPIO43	main/gpio.h	/^  GPIO43,$/;"	e	enum:__anon3
+GPIO44	main/gpio.h	/^  GPIO44,$/;"	e	enum:__anon3
+GPIO45	main/gpio.h	/^  GPIO45,$/;"	e	enum:__anon3
+GPIO46	main/gpio.h	/^  GPIO46,$/;"	e	enum:__anon3
+GPIO47	main/gpio.h	/^  GPIO47,$/;"	e	enum:__anon3
+GPIO48	main/gpio.h	/^  GPIO48,$/;"	e	enum:__anon3
+GPIO49	main/gpio.h	/^  GPIO49,$/;"	e	enum:__anon3
+GPIO5	main/gpio.h	/^  GPIO5,$/;"	e	enum:__anon3
+GPIO50	main/gpio.h	/^  GPIO50 = 50,$/;"	e	enum:__anon3
+GPIO51	main/gpio.h	/^  GPIO51,$/;"	e	enum:__anon3
+GPIO52	main/gpio.h	/^  GPIO52,$/;"	e	enum:__anon3
+GPIO53	main/gpio.h	/^  GPIO53,$/;"	e	enum:__anon3
+GPIO6	main/gpio.h	/^  GPIO6,$/;"	e	enum:__anon3
+GPIO7	main/gpio.h	/^  GPIO7,$/;"	e	enum:__anon3
+GPIO8	main/gpio.h	/^  GPIO8,$/;"	e	enum:__anon3
+GPIO9	main/gpio.h	/^  GPIO9,$/;"	e	enum:__anon3
+GPIO_ADDRESS	main/gpio.h	/^#define GPIO_ADDRESS /;"	d
+GPIO_FS_0	main/gpio.h	/^  GPIO_FS_0,$/;"	e	enum:__anon4
+GPIO_FS_1	main/gpio.h	/^  GPIO_FS_1,$/;"	e	enum:__anon4
+GPIO_FS_2	main/gpio.h	/^  GPIO_FS_2,$/;"	e	enum:__anon4
+GPIO_FS_3	main/gpio.h	/^  GPIO_FS_3,$/;"	e	enum:__anon4
+GPIO_FS_4	main/gpio.h	/^  GPIO_FS_4,$/;"	e	enum:__anon4
+GPIO_FS_5	main/gpio.h	/^  GPIO_FS_5,$/;"	e	enum:__anon4
+GPIO_FS_IN	main/gpio.h	/^  GPIO_FS_IN = 0,$/;"	e	enum:__anon4
+GPIO_FS_OUT	main/gpio.h	/^  GPIO_FS_OUT,$/;"	e	enum:__anon4
+GPIO_H	main/gpio.h	/^#define GPIO_H$/;"	d
+GPLEN0	main/gpio.h	/^	REG32	GPLEN0;$/;"	m	struct:__anon5
+GPLEN1	main/gpio.h	/^	REG32	GPLEN1;$/;"	m	struct:__anon5
+GPLEV0	main/gpio.h	/^	REG32	GPLEV0;$/;"	m	struct:__anon5
+GPLEV1	main/gpio.h	/^	REG32	GPLEV1;$/;"	m	struct:__anon5
+GPPUD	main/gpio.h	/^	REG32	GPPUD;$/;"	m	struct:__anon5
+GPPUDCLK0	main/gpio.h	/^	REG32	GPPUDCLK0;$/;"	m	struct:__anon5
+GPPUDCLK1	main/gpio.h	/^	REG32	GPPUDCLK1;$/;"	m	struct:__anon5
+GPREN0	main/gpio.h	/^	REG32	GPREN0;$/;"	m	struct:__anon5
+GPREN1	main/gpio.h	/^	REG32	GPREN1;$/;"	m	struct:__anon5
+GPSET0	main/gpio.h	/^	REG32	GPSET0;$/;"	m	struct:__anon5
+GPSET1	main/gpio.h	/^	REG32	GPSET1;$/;"	m	struct:__anon5
+GPU_0_HALTED_IRQ	main/interrupts.h	/^	#define GPU_0_HALTED_IRQ	/;"	d
+GPU_1_HALTED_IRQ	main/interrupts.h	/^	#define GPU_1_HALTED_IRQ	/;"	d
+GetArmTimer	main/arm_timer.c	/^arm_timer_t* GetArmTimer(void)$/;"	f
+GetChar	main/serial.c	/^CHAR GetChar()$/;"	f
+GetGpioRegister	main/gpio.c	/^gpio_regs_t* GetGpioRegister(void)$/;"	f
+GetInterruptRegister	main/interrupts.c	/^interrupt_register_t* GetInterruptRegister(void)$/;"	f
+GetString	main/serial.c	/^UINT32 GetString(CHAR * buf, UINT32 len)$/;"	f
+GetTimer	main/timer.c	/^timer_t* GetTimer(void)$/;"	f
+IER	main/aux.h	/^  REG32 IER;$/;"	m	struct:__anon2
+IIR	main/aux.h	/^  REG32 IIR;$/;"	m	struct:__anon2
+INT08	main/type.h	/^typedef char  INT08;$/;"	t
+INT16	main/type.h	/^typedef short INT16;$/;"	t
+INT32	main/type.h	/^typedef int   INT32;$/;"	t
+INTERRUPTS_H	main/interrupts.h	/^	#define INTERRUPTS_H$/;"	d
+INTERRUPT_REGISTER_ADDRESS	main/interrupts.h	/^	#define INTERRUPT_REGISTER_ADDRESS /;"	d
+IO	main/aux.h	/^  REG32 IO;$/;"	m	struct:__anon2
+IRQ	main/aux.h	/^	REG32 IRQ;$/;"	m	struct:__anon2
+IRQClear	main/arm_timer.h	/^		REG32 IRQClear;$/;"	m	struct:__anon1
+IRQ_basic_pending	main/interrupts.h	/^		REG32 IRQ_basic_pending;$/;"	m	struct:__anon6
+IRQ_pending_1	main/interrupts.h	/^		REG32 IRQ_pending_1;$/;"	m	struct:__anon6
+IRQ_pending_2	main/interrupts.h	/^		REG32 IRQ_pending_2;$/;"	m	struct:__anon6
+LCR	main/aux.h	/^  REG32 LCR;$/;"	m	struct:__anon2
+LED_GPCLR	main/gpio.h	/^#define LED_GPCLR /;"	d
+LED_GPFBIT	main/gpio.h	/^#define LED_GPFBIT /;"	d
+LED_GPFSEL	main/gpio.h	/^#define LED_GPFSEL /;"	d
+LED_GPIO_BIT	main/gpio.h	/^#define LED_GPIO_BIT /;"	d
+LED_GPSET	main/gpio.h	/^#define LED_GPSET /;"	d
+LED_OFF	main/gpio.h	/^#define LED_OFF(/;"	d
+LED_ON	main/gpio.h	/^#define LED_ON(/;"	d
+LSR	main/aux.h	/^  REG32 LSR;$/;"	m	struct:__anon2
+Load	main/arm_timer.h	/^		REG32 Load;$/;"	m	struct:__anon1
+MAX_LENGTH	main/serial.c	/^#define MAX_LENGTH /;"	d	file:
+MCR	main/aux.h	/^  REG32 MCR;$/;"	m	struct:__anon2
+MSR	main/aux.h	/^  REG32 MSR;$/;"	m	struct:__anon2
+MaskedIRQ	main/arm_timer.h	/^		REG32 MaskedIRQ;$/;"	m	struct:__anon1
+PERIPHERAL_ADDRESS	main/base.h	/^#define PERIPHERAL_ADDRESS /;"	d
+PreDivider	main/arm_timer.h	/^		REG32 PreDivider;$/;"	m	struct:__anon1
+PutByte	main/serial.c	/^void PutByte(BYTE b)$/;"	f
+PutChar	main/serial.c	/^void PutChar(CHAR c)$/;"	f
+PutString	main/serial.c	/^UINT32 PutString(CHAR * c, UINT32 len)$/;"	f
+RAWIRQ	main/arm_timer.h	/^		REG32 RAWIRQ;$/;"	m	struct:__anon1
+REG32	main/type.h	/^typedef volatile UINT32 REG32;$/;"	t
+Reload	main/arm_timer.h	/^		REG32 Reload;$/;"	m	struct:__anon1
+Reserved0	main/gpio.h	/^	REG32	Reserved0;$/;"	m	struct:__anon5
+Reserved1	main/gpio.h	/^	REG32	Reserved1;$/;"	m	struct:__anon5
+Reserved10	main/gpio.h	/^	REG32	Reserved10;$/;"	m	struct:__anon5
+Reserved11	main/gpio.h	/^	REG32	Reserved11;$/;"	m	struct:__anon5
+Reserved2	main/gpio.h	/^	REG32	Reserved2;$/;"	m	struct:__anon5
+Reserved3	main/gpio.h	/^	REG32	Reserved3;$/;"	m	struct:__anon5
+Reserved4	main/gpio.h	/^	REG32	Reserved4;$/;"	m	struct:__anon5
+Reserved5	main/gpio.h	/^	REG32	Reserved5;$/;"	m	struct:__anon5
+Reserved6	main/gpio.h	/^	REG32	Reserved6;$/;"	m	struct:__anon5
+Reserved7	main/gpio.h	/^	REG32	Reserved7;$/;"	m	struct:__anon5
+Reserved8	main/gpio.h	/^	REG32	Reserved8;$/;"	m	struct:__anon5
+Reserved9	main/gpio.h	/^	REG32	Reserved9;$/;"	m	struct:__anon5
+SCRATCH	main/aux.h	/^  REG32 SCRATCH;$/;"	m	struct:__anon2
+SERIAL_H	main/serial.h	/^#define SERIAL_H$/;"	d
+STAT	main/aux.h	/^  REG32 STAT;$/;"	m	struct:__anon2
+SYS_FREQ_HZ	main/aux.c	/^#define SYS_FREQ_HZ /;"	d	file:
+SerialInit	main/serial.c	/^void SerialInit()$/;"	f
+SetGpioPinFunction	main/gpio.c	/^void SetGpioPinFunction(gpio_pin_t gpio, gpio_func_sel_t func)$/;"	f
+TIMER_BASE	main/timer.h	/^#define TIMER_BASE /;"	d
+TIMER_H	main/timer.h	/^#define TIMER_H$/;"	d
+TYPE_H	main/type.h	/^#define TYPE_H$/;"	d
+UCHAR	main/type.h	/^typedef unsigned char UCHAR;$/;"	t
+UINT08	main/type.h	/^typedef unsigned char  UINT08;$/;"	t
+UINT16	main/type.h	/^typedef unsigned short UINT16;$/;"	t
+UINT32	main/type.h	/^typedef unsigned int   UINT32;$/;"	t
+Value	main/arm_timer.h	/^		REG32 Value;$/;"	m	struct:__anon1
+Wait_us	main/timer.c	/^void Wait_us( UINT32 us )$/;"	f
+_cstartup	init/cstartup.c	/^void _cstartup( unsigned int r0, unsigned int r1, unsigned int r2 )$/;"	f
+_data_abort_vector_h	init/start.S	/^_data_abort_vector_h:               .word   data_abort_vector$/;"	l
+_fast_interrupt_vector_h	init/start.S	/^_fast_interrupt_vector_h:           .word   fast_interrupt_vector$/;"	l
+_get_stack_pointer	init/start.S	/^_get_stack_pointer:$/;"	l
+_inf_loop	init/start.S	/^_inf_loop:$/;"	l
+_interrupt_vector_h	init/start.S	/^_interrupt_vector_h:                .word   interrupt_vector$/;"	l
+_prefetch_abort_vector_h	init/start.S	/^_prefetch_abort_vector_h:           .word   prefetch_abort_vector$/;"	l
+_reset_	init/start.S	/^_reset_:$/;"	l
+_reset_h	init/start.S	/^_reset_h:                           .word   _reset_$/;"	l
+_sbrk	lib/cstubs.c	/^caddr_t _sbrk( int incr )$/;"	f
+_software_interrupt_vector_h	init/start.S	/^_software_interrupt_vector_h:       .word   software_interrupt_vector$/;"	l
+_start	init/start.S	/^_start:$/;"	l
+_undefined_instruction_vector_h	init/start.S	/^_undefined_instruction_vector_h:    .word   undefined_instruction_vector$/;"	l
+_unused_handler_h	init/start.S	/^_unused_handler_h:                  .word   _reset_$/;"	l
+arm_timer_t	main/arm_timer.h	/^	} arm_timer_t;$/;"	t	typeref:struct:__anon1
+aux_mini_uart_regs	main/aux.c	/^static aux_mini_uart_regs_t * aux_mini_uart_regs = (aux_mini_uart_regs_t *)AUX_ADDR;$/;"	v	file:
+aux_mini_uart_regs_t	main/aux.h	/^} aux_mini_uart_regs_t;$/;"	t	typeref:struct:__anon2
+compare0	main/timer.h	/^	REG32 compare0;$/;"	m	struct:__anon7
+compare1	main/timer.h	/^	REG32 compare1;$/;"	m	struct:__anon7
+compare2	main/timer.h	/^	REG32 compare2;$/;"	m	struct:__anon7
+compare3	main/timer.h	/^	REG32 compare3;$/;"	m	struct:__anon7
+control_status	main/timer.h	/^	REG32 control_status;$/;"	m	struct:__anon7
+counter_hi	main/timer.h	/^	REG32 counter_hi;$/;"	m	struct:__anon7
+counter_lo	main/timer.h	/^	REG32 counter_lo;$/;"	m	struct:__anon7
+data_abort_vector	main/interrupts.c	/^void __attribute__((interrupt("ABORT"))) data_abort_vector(void)$/;"	f
+false	main/type.h	/^typedef enum {true, false} BOOL; $/;"	e	enum:__anon8
+fast_interrupt_vector	main/interrupts.c	/^void __attribute__((interrupt("FIQ"))) fast_interrupt_vector(void)$/;"	f
+gpioRegs	main/gpio.c	/^gpio_regs_t * gpioRegs = (gpio_regs_t *)GPIO_ADDRESS;$/;"	v
+gpio_func_sel_t	main/gpio.h	/^} gpio_func_sel_t;$/;"	t	typeref:enum:__anon4
+gpio_pin_t	main/gpio.h	/^} gpio_pin_t;$/;"	t	typeref:enum:__anon3
+gpio_regs_t	main/gpio.h	/^} gpio_regs_t;$/;"	t	typeref:struct:__anon5
+interrupt_register_t	main/interrupts.h	/^	} interrupt_register_t;$/;"	t	typeref:struct:__anon6
+interrupt_vector	main/interrupts.c	/^void __attribute__((interrupt("IRQ"))) interrupt_vector(void)$/;"	f
+kernel_main	main/main.c	/^int kernel_main(unsigned int r0, unsigned int r1, unsigned int atags)$/;"	f
+prefetch_abort_vector	main/interrupts.c	/^void __attribute__((interrupt("ABORT"))) prefetch_abort_vector(void)$/;"	f
+reserved1	main/aux.h	/^	REG32 reserved1[((0x40 - 0x04) \/ 4) - 1];$/;"	m	struct:__anon2
+software_interrupt_vector	main/interrupts.c	/^void __attribute__((interrupt("SWI"))) software_interrupt_vector(void)$/;"	f
+timer	main/timer.c	/^static timer_t* timer = (timer_t*)TIMER_BASE;$/;"	v	file:
+timer_t	main/timer.h	/^} timer_t;$/;"	t	typeref:struct:__anon7
+true	main/type.h	/^typedef enum {true, false} BOOL; $/;"	e	enum:__anon8
+undefined_instruction_vector	main/interrupts.c	/^void __attribute__((interrupt("UNDEF"))) undefined_instruction_vector(void)$/;"	f

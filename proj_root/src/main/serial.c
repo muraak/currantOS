@@ -4,24 +4,29 @@
 #define MAX_LENGTH 4096
 #define DUMMY 0
 
-void PutByte(uint08 b)
+void SerialInit()
+{
+	AuxMiniUartInit(115200, 8);
+}
+
+void PutByte(BYTE b)
 {
 	AuxMiniUartPutByte(b);
 }
 
-void PutChar(char c)
+void PutChar(CHAR c)
 {
 	if(c == '\n') {
-		AuxMiniUartPutByte((uint08)'\r');
+		AuxMiniUartPutByte((BYTE)'\r');
 	}
 
-	AuxMiniUartPutByte((uint08)c);
+	AuxMiniUartPutByte((BYTE)c);
 
 }
 
-uint32 PutString(char * c, uint32 len)
+UINT32 PutString(CHAR * c, UINT32 len)
 {
-	int32 i;
+	UINT32 i;
 
 	for(i = 0; i < len; i++) {
 
@@ -34,9 +39,9 @@ uint32 PutString(char * c, uint32 len)
 	return 0;
 }
 
-int08 GetChar()
+CHAR GetChar()
 {
-	int08 c;
+	CHAR c;
 
 	c = AuxMiniUartGetByte();
 
@@ -47,10 +52,10 @@ int08 GetChar()
 	return c;
 }
 
-uint32 GetString(char * buf, uint32 len)
+UINT32 GetString(CHAR * buf, UINT32 len)
 {
-	uint32 i;
-	int08 c;
+	UINT32 i;
+	CHAR c;
 
 	for(i = 0; i < len; i++) {
 		

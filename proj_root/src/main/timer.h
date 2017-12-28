@@ -7,16 +7,16 @@
 #define TIMER_BASE 0x3f003000
 
 typedef struct {
-	reg32_t control_status;
-	reg32_t counter_lo;
-	reg32_t counter_hi;
-	reg32_t compare0;
-	reg32_t compare1;
-	reg32_t compare2;
-	reg32_t compare3;
+	REG32 control_status;
+	REG32 counter_lo;
+	REG32 counter_hi;
+	REG32 compare0;
+	REG32 compare1;
+	REG32 compare2;
+	REG32 compare3;
 } timer_t;
 
 timer_t* GetTimer_us(void);
-void Wait_us( uint32 us );
+void Wait_us( UINT32 us );
 
 #endif

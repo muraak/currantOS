@@ -57,25 +57,25 @@
 #define AUX_MU_STAT_TX_FIFO_LEVEL    (7 << 24)
 
 typedef struct {
-	reg32_t IRQ;
-	reg32_t ENA;
-	reg32_t reserved1[((0x40 - 0x04) / 4) - 1];
-  reg32_t IO;
-  reg32_t IER;
-  reg32_t IIR;
-  reg32_t LCR;
-  reg32_t MCR;
-  reg32_t LSR;
-  reg32_t MSR;
-  reg32_t SCRATCH;
-  reg32_t CNTL;
-  reg32_t STAT;
-  reg32_t BAUD;
+	REG32 IRQ;
+	REG32 ENA;
+	REG32 reserved1[((0x40 - 0x04) / 4) - 1];
+  REG32 IO;
+  REG32 IER;
+  REG32 IIR;
+  REG32 LCR;
+  REG32 MCR;
+  REG32 LSR;
+  REG32 MSR;
+  REG32 SCRATCH;
+  REG32 CNTL;
+  REG32 STAT;
+  REG32 BAUD;
 } aux_mini_uart_regs_t;
 
 aux_mini_uart_regs_t* AuxMiniUartRegsGetAddr(void);
-void AuxMiniUartInit(uint32 baud, uint32 bits);
-void AuxMiniUartPutByte(char c);
-int08 AuxMiniUartGetByte();
+void AuxMiniUartInit(UINT32 baud, UINT32 bits);
+void AuxMiniUartPutByte(BYTE c);
+BYTE AuxMiniUartGetByte();
 
 #endif

@@ -1,14 +1,20 @@
 #ifndef TYPE_H
 #define TYPE_H
 
-typedef unsigned int   uint32;
-typedef unsigned short uint16;
-typedef unsigned char  uint08;
+typedef unsigned int   UINT32;
+typedef unsigned short UINT16;
+typedef unsigned char  UINT08;
+typedef int   INT32;
+typedef short INT16;
+typedef char  INT08;
 
-typedef int   int32;
-typedef short int16;
-typedef char  int08;
+typedef unsigned char UCHAR;
+typedef char CHAR;
 
-typedef volatile uint32 reg32_t;
+typedef unsigned char BYTE;
+
+typedef volatile UINT32 REG32;
+
+typedef enum {true, false} BOOL; 
 
 #endif

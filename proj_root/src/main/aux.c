@@ -10,12 +10,12 @@ aux_mini_uart_regs_t* AuxMiniUartRegsGetAddr(void)
 	return aux_mini_uart_regs;
 }
 
-void AuxMiniUartInit(uint32 baud, uint32 bits)
+void AuxMiniUartInit(UINT32 baud, UINT32 bits)
 {
-	volatile uint32 cnt;
+	volatile UINT32 cnt;
 
 	/* Set AUX as mini UART. */
-	aux_mini_uart_regs->ENA = (reg32_t)AUX_ENA_MINI_UART;
+	aux_mini_uart_regs->ENA = (REG32)AUX_ENA_MINI_UART;
 
 	/* Disable interrupts for now. */
   //aux_mini_uart_regs->IRQ &= ~AUX_IRQ_MINI_UART;
@@ -25,10 +25,10 @@ void AuxMiniUartInit(uint32 baud, uint32 bits)
 
 	/* Decide between seven or eight-bit mode. */
 	if(bits == 8) {
-		aux_mini_uart_regs->LCR = (reg32_t)AUX_MULCR_8BIT_MODE;
+		aux_mini_uart_regs->LCR = (REG32)AUX_MULCR_8BIT_MODE;
 	}
 	else {
-		aux_mini_uart_regs->LCR = (reg32_t)AUX_MULCR_7BIT_MODE;
+		aux_mini_uart_regs->LCR = (REG32)AUX_MULCR_7BIT_MODE;
 	}
 
 	/* Clear the RTS signal. */
@@ -72,7 +72,7 @@ void AuxMiniUartInit(uint32 baud, uint32 bits)
 
 }
 
-void AuxMiniUartPutByte(int08 c)
+void AuxMiniUartPutByte(BYTE c)
 {
 	/* Wait until ready. */
 	while((aux_mini_uart_regs->LSR & AUX_MU_LSR_DATA_TRANS_EMPTY) == 0){}
@@ -80,10 +80,10 @@ void AuxMiniUartPutByte(int08 c)
 	aux_mini_uart_regs->IO = c;
 }
 
-int08 AuxMiniUartGetByte(void)
+BYTE AuxMiniUartGetByte(void)
 {
 	/* Wait until ready. */
 	while((aux_mini_uart_regs->LSR & AUX_MU_LSR_DATA_READY) == 0){}
 
-	return (uint08)aux_mini_uart_regs->IO;
+	return (BYTE)aux_mini_uart_regs->IO;
 }

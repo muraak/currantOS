@@ -12,8 +12,8 @@ gpio_regs_t* GetGpioRegister(void)
 void SetGpioPinFunction(gpio_pin_t gpio, gpio_func_sel_t func)
 {
 	/* Get target register's copy */
-  reg32_t* fsel_reg = &(((reg32_t *)gpioRegs)[ gpio / 10 ]);
-  reg32_t copy = *fsel_reg;
+  REG32* fsel_reg = &(((REG32 *)gpioRegs)[ gpio / 10 ]);
+  REG32 copy = *fsel_reg;
 
 	/* Make the value. */
   copy &= ~( FS_MASK << ( ( gpio % 10 ) * 3 ) );
