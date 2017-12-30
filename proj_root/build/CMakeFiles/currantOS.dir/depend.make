@@ -14,17 +14,22 @@ CMakeFiles/currantOS.dir/lib/cstubs.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/
 CMakeFiles/currantOS.dir/main/arm_timer.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.c
 CMakeFiles/currantOS.dir/main/arm_timer.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.h
 CMakeFiles/currantOS.dir/main/arm_timer.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
+CMakeFiles/currantOS.dir/main/arm_timer.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
+CMakeFiles/currantOS.dir/main/arm_timer.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/led.h
 CMakeFiles/currantOS.dir/main/arm_timer.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
 
 CMakeFiles/currantOS.dir/main/aux.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.c
 CMakeFiles/currantOS.dir/main/aux.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h
 CMakeFiles/currantOS.dir/main/aux.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
 CMakeFiles/currantOS.dir/main/aux.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
+CMakeFiles/currantOS.dir/main/aux.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h
 CMakeFiles/currantOS.dir/main/aux.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
 
 CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h
+CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
 CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.c
 CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/console.h
+CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.h
 CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/serial.h
 CMakeFiles/currantOS.dir/main/console.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
 
@@ -34,6 +39,7 @@ CMakeFiles/currantOS.dir/main/gpio.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/c
 CMakeFiles/currantOS.dir/main/gpio.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/type.h
 
 CMakeFiles/currantOS.dir/main/interrupts.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/arm_timer.h
+CMakeFiles/currantOS.dir/main/interrupts.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/aux.h
 CMakeFiles/currantOS.dir/main/interrupts.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/base.h
 CMakeFiles/currantOS.dir/main/interrupts.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/gpio.h
 CMakeFiles/currantOS.dir/main/interrupts.c.obj: /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src/main/interrupts.c

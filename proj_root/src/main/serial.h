@@ -10,5 +10,7 @@ void PutChar(CHAR c);
 UINT32 PutString(CHAR * c, UINT32 len);
 CHAR GetChar();
 UINT32 GetString(CHAR * buf, UINT32 len);
+void SerialOnReceiveByte(BYTE b);
+void SerialOnReceiveChar(CHAR c);
 
 #endif

@@ -68,6 +68,11 @@ BOOL	main/type.h	/^typedef enum {true, false} BOOL; $/;"	t	typeref:enum:__anon8
 BYTE	main/type.h	/^typedef unsigned char BYTE;$/;"	t
 CHAR	main/type.h	/^typedef char CHAR;$/;"	t
 CNTL	main/aux.h	/^  REG32 CNTL;$/;"	m	struct:__anon2
+CONSOLE_H	main/console.h	/^#define CONSOLE_H$/;"	d
+ConsoleInit	main/console.c	/^void ConsoleInit()$/;"	f
+ConsoleRead	main/console.c	/^INT32 ConsoleRead(CHAR * string, UINT32 len)$/;"	f
+ConsoleWrite	main/console.c	/^INT32 ConsoleWrite(CHAR * string, UINT32 len)$/;"	f
+ConsoleWriteLine	main/console.c	/^INT32 ConsoleWriteLine(CHAR * string, UINT32 len)$/;"	f
 Control	main/arm_timer.h	/^		REG32 Control;$/;"	m	struct:__anon1
 DI	main/interrupts.c	/^void DI(void)$/;"	f
 DUMMY	main/serial.c	/^#define DUMMY /;"	d	file:
@@ -76,6 +81,7 @@ Disable_IRQs_1	main/interrupts.h	/^		REG32 Disable_IRQs_1;$/;"	m	struct:__anon6
 Disable_IRQs_2	main/interrupts.h	/^		REG32 Disable_IRQs_2;$/;"	m	struct:__anon6
 EI	main/interrupts.c	/^void EI(void)$/;"	f
 ENA	main/aux.h	/^	REG32 ENA;$/;"	m	struct:__anon2
+ENABLE_LED	main/led.h	/^#define ENABLE_LED(/;"	d
 Enable_Basic_IRQs	main/interrupts.h	/^		REG32 Enable_Basic_IRQs;$/;"	m	struct:__anon6
 Enable_IRQs_1	main/interrupts.h	/^		REG32 Enable_IRQs_1;$/;"	m	struct:__anon6
 Enable_IRQs_2	main/interrupts.h	/^		REG32 Enable_IRQs_2;$/;"	m	struct:__anon6
@@ -197,13 +203,12 @@ IRQ_basic_pending	main/interrupts.h	/^		REG32 IRQ_basic_pending;$/;"	m	struct:__
 IRQ_pending_1	main/interrupts.h	/^		REG32 IRQ_pending_1;$/;"	m	struct:__anon6
 IRQ_pending_2	main/interrupts.h	/^		REG32 IRQ_pending_2;$/;"	m	struct:__anon6
 LCR	main/aux.h	/^  REG32 LCR;$/;"	m	struct:__anon2
-LED_GPCLR	main/gpio.h	/^#define LED_GPCLR /;"	d
-LED_GPFBIT	main/gpio.h	/^#define LED_GPFBIT /;"	d
-LED_GPFSEL	main/gpio.h	/^#define LED_GPFSEL /;"	d
-LED_GPIO_BIT	main/gpio.h	/^#define LED_GPIO_BIT /;"	d
-LED_GPSET	main/gpio.h	/^#define LED_GPSET /;"	d
-LED_OFF	main/gpio.h	/^#define LED_OFF(/;"	d
-LED_ON	main/gpio.h	/^#define LED_ON(/;"	d
+LED_GPCLR	main/led.h	/^#define LED_GPCLR /;"	d
+LED_GPIO_BIT	main/led.h	/^#define LED_GPIO_BIT /;"	d
+LED_GPSET	main/led.h	/^#define LED_GPSET /;"	d
+LED_H	main/led.h	/^#define LED_H$/;"	d
+LED_OFF	main/led.h	/^#define LED_OFF(/;"	d
+LED_ON	main/led.h	/^#define LED_ON(/;"	d
 LSR	main/aux.h	/^  REG32 LSR;$/;"	m	struct:__anon2
 Load	main/arm_timer.h	/^		REG32 Load;$/;"	m	struct:__anon1
 MAX_LENGTH	main/serial.c	/^#define MAX_LENGTH /;"	d	file:

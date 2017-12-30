@@ -1,5 +1,6 @@
 #include "aux.h"
 #include "gpio.h"
+#include "serial.h"
 
 #define SYS_FREQ_HZ 250000000
 
@@ -35,7 +36,7 @@ void AuxMiniUartInit(UINT32 baud, UINT32 bits)
 	aux_mini_uart_regs->MCR = 0;
 
 	/* Disable all interrupts from MU and clear the fifos */
-	aux_mini_uart_regs->IER = 0;
+	aux_mini_uart_regs->IER = 0x05; // enable rx interrupt
 	aux_mini_uart_regs->IIR = 0xC6; //0x06?
 
 	/* Calculate and set the baudrate. */
@@ -86,4 +87,34 @@ BYTE AuxMiniUartGetByte(void)
 	while((aux_mini_uart_regs->LSR & AUX_MU_LSR_DATA_READY) == 0){}
 
 	return (BYTE)aux_mini_uart_regs->IO;
+}
+
+BOOL AuxMiniUartIsRxIntrruptAsserted(void)
+{
+	if((aux_mini_uart_regs->IIR & 0x00000004) == 0x00000004) {
+		return true;
+	}
+	else {
+		return false;
+	}
+}
+
+BOOL AuxMiniIsInterruptRemained(void)
+{
+
+	if((aux_mini_uart_regs->IIR & 0x00000001) == 0x00000001) {
+		return false;
+	}
+	else {
+		return true;
+	}
+}
+
+void AuxMiniUartInterruptHandler(void)
+{
+	while(AuxMiniIsInterruptRemained() == true) {
+		if(AuxMiniUartIsRxIntrruptAsserted() == true) {
+			SerialOnReceiveByte(AuxMiniUartGetByte());
+		}
+	}	
 }

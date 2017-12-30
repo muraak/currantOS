@@ -4,6 +4,16 @@
 #include "arm_timer.h"
 #include "led.h"
 
+#include "aux.h"
+
+void InterruptInit(void)
+{
+	// Enable arm timer interrupt.
+	GetInterruptRegister()->Enable_Basic_IRQs = ARM_TIMER_IRQ;
+	// Enable aux mini UART interrupt.
+	GetInterruptRegister()->Enable_IRQs_1 = (1 << 29);
+}
+
 void EI(void)
 {
 	REG32 tmp;
@@ -66,19 +76,19 @@ void __attribute__((interrupt("ABORT"))) data_abort_vector(void)
 
 void __attribute__((interrupt("IRQ"))) interrupt_vector(void)
 {
-	static BOOL lit = false;
+	
 
-	GetArmTimer()->IRQClear = 1;
+	if((GetInterruptRegister()->IRQ_basic_pending
+				& (REG32)ARM_TIMER_IRQ) == (REG32)ARM_TIMER_IRQ) {
 
-	if(lit)
-	{
-		LED_OFF();
-		lit = 0;
+		GetArmTimer()->IRQClear = 1;
+		ArmTimerInterruptHandler();
 	}
-	else
-	{
-		LED_ON();
-		lit = 1;
+
+
+	if((GetInterruptRegister()->IRQ_pending_1 & (1 << 29)) == (1 << 29)) {
+
+		AuxMiniUartInterruptHandler();
 	}
 }
 

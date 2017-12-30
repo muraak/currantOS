@@ -1,7 +1,7 @@
 
 #include "serial.h"
 
-#define MAX_LENGTH 4096
+#define MAX_LENGTH 1024
 #define DUMMY 0
 
 void SerialInit()
@@ -72,5 +72,41 @@ UINT32 GetString(CHAR * buf, UINT32 len)
 	}
 
 	return 0;
+
+}
+
+void SerialOnReceiveByte(BYTE b)
+{
+	CHAR c;
+
+	c = (b == '\r') ? '\n' : b;
+
+	SerialOnReceiveChar(c);
+}
+
+void SerialOnReceiveChar(CHAR c)
+{
+	static CHAR  line[MAX_LENGTH];
+	static INT32 cursor = 0;
+
+	PutChar(c); // echo back
+
+	if(c == '\n') {
+		line[cursor++] = '\0';
+		ConsoleOnReceived(line);
+		// Clear buffer.
+		for(cursor = 0; cursor < MAX_LENGTH; cursor++){line[cursor] = '\0';}
+		cursor = 0;
+	}
+	else {
+		line[cursor++] = c;
+		
+		if(cursor > MAX_LENGTH - 1) {
+			ConsoleOnReceived(line);
+			// Clear buffer.
+			for(cursor = 0; cursor < MAX_LENGTH; cursor++){line[cursor] = '\0';}
+			cursor = 0;
+		}
+	}
 
 }

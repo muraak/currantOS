@@ -76,6 +76,9 @@ typedef struct {
 aux_mini_uart_regs_t* AuxMiniUartRegsGetAddr(void);
 void AuxMiniUartInit(UINT32 baud, UINT32 bits);
 void AuxMiniUartPutByte(BYTE c);
-BYTE AuxMiniUartGetByte();
+BYTE AuxMiniUartGetByte(void);
+BOOL AuxMiniUartIsRxIntrruptAsserted(void);
+BOOL AuxMiniIsInterruptRemained(void);
+void AuxMiniUartInterruptHandler(void);
 
 #endif
