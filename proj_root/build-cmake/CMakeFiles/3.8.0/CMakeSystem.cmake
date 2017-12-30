@@ -3,7 +3,7 @@ set(CMAKE_HOST_SYSTEM_NAME "Darwin")
 set(CMAKE_HOST_SYSTEM_VERSION "16.7.0")
 set(CMAKE_HOST_SYSTEM_PROCESSOR "x86_64")
 
-include("/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/rpi2.cmake")
+include("/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake/rpi2.cmake")
 
 set(CMAKE_SYSTEM "Generic")
 set(CMAKE_SYSTEM_NAME "Generic")

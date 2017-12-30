@@ -35,5 +35,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

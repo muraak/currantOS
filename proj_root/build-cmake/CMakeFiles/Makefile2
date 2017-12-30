@@ -57,7 +57,7 @@ EQUALS = =
 CMAKE_SOURCE_DIR = /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build
+CMAKE_BINARY_DIR = /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake
 
 #=============================================================================
 # Target rules for target CMakeFiles/currantOS.dir
@@ -66,7 +66,7 @@ CMAKE_BINARY_DIR = /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/buil
 CMakeFiles/currantOS.dir/all:
 	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/depend
 	$(MAKE) -f CMakeFiles/currantOS.dir/build.make CMakeFiles/currantOS.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target currantOS"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake/CMakeFiles --progress-num=1,2,3,4,5,6,7,8,9,10,11,12 "Built target currantOS"
 .PHONY : CMakeFiles/currantOS.dir/all
 
 # Include target in all.
@@ -76,9 +76,9 @@ all: CMakeFiles/currantOS.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/currantOS.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake/CMakeFiles 12
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/currantOS.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake/CMakeFiles 0
 .PHONY : CMakeFiles/currantOS.dir/rule
 
 # Convenience name for target.

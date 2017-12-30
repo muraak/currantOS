@@ -1,3 +1,0 @@
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/rebuild_cache.dir
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/edit_cache.dir
-/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build/CMakeFiles/currantOS.dir

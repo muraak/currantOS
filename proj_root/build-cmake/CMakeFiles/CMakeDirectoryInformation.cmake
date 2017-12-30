@@ -3,7 +3,7 @@
 
 # Relative path conversion top directories.
 set(CMAKE_RELATIVE_PATH_TOP_SOURCE "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/src")
-set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build")
+set(CMAKE_RELATIVE_PATH_TOP_BINARY "/Users/muraak/MyGarage/bare_on_pi/my/currantOS/proj_root/build-cmake")
 
 # Force unix paths in dependencies.
 set(CMAKE_FORCE_UNIX_PATHS 1)
